@@ -3,6 +3,10 @@ from .models import LicenseKey, Activation
 from django.utils import timezone
 from .utils import gen_key
 
+admin.site.site_header = "BrainAudio administrative panel"
+admin.site.site_title = "BrainAudio admin"
+admin.site.index_title = "Панель управления BrainAudio"
+
 @admin.register(LicenseKey)
 class LicenseKeyAdmin(admin.ModelAdmin):
     list_display = ("key", "status", "plan", "expires_at", "token_version", "created_at")

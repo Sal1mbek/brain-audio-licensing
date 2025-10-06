@@ -1,0 +1,9 @@
+/* Компактный логотип и кнопки */
+#site-name { font-weight: 700; letter-spacing: .2px; }
+.button, .submit-row input { border-radius: 8px; }
+
+/* Более приятный блок логина */
+.login #container { border-radius: 10px; }
+
+/* Цвет ссылок */
+a:link, a:visited { color: #3972FE; }
